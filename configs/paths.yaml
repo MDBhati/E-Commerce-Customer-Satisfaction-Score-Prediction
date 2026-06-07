@@ -1,0 +1,11 @@
+data_paths:
+  csat_data: "data/raw/eCommerce_Customer_support_data.csv"
+  processed_data: "data/processed/csat_processed.csv"
+
+artifact_paths:
+  model: "artifacts/models/csat_model.keras"
+  preprocessor: "artifacts/models/preprocessor.pkl"
+  training_history: "artifacts/reports/training_history.json"
+
+report_paths:
+  missing_values_plot: "reports/images/missing_values.png"
