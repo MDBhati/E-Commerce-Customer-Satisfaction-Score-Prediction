@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Logs
+logs/
+*.log
+
+
+# Generated artifacts (models, preprocessors, training output)
+artifacts/
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+
+# Processed / intermediate data
+data/processed/
+
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+
+# Streamlit
+.streamlit/secrets.toml
